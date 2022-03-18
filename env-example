@@ -12,17 +12,17 @@ PROD_HOST=web
 UAT_HOST=web
 
 
-----------------------
+#----------------------
 # App-Specific
-----------------------
+#----------------------
 
 # Session keys
 FLASK_SECRET_KEY="nothin-to-see-here"
 
 
-----------------------
+#----------------------
 # Build-Specific
-----------------------
+#----------------------
 
 # name, for attribution and image creation
 # (aka **acbilson**/chaos-theme-service:alpine)
@@ -52,9 +52,9 @@ UAT_DIST=/mnt/msata/build/uat
 PRD_DIST=/mnt/msata/build/prod
 
 
-----------------------
+#----------------------
 # Runtime-Specific
-----------------------
+#----------------------
 
 # Volume Paths
 # *_SRC is the local absolute path
